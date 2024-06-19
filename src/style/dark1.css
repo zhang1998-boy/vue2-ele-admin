@@ -1,0 +1,53 @@
+.dark {
+  background: #333 !important;
+  /* 设置你要的背景色 */
+}
+.dark .home_container {
+  background: #333 !important;
+}
+.dark .left_top,
+.dark .left_topactive,
+.dark .nav-bar,
+.dark .rigth_top,
+.dark .container_left,
+.dark .container_right,
+.dark .dark-them {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+.dark .register_topdiv,
+.dark .register_top,
+.dark .register_content,
+.dark .register_bottom {
+  background-color: #242525 !important;
+}
+.dark .dark-them,
+.dark .rigth_top {
+  border-bottom: none !important;
+}
+.dark .dark-select .ant-select-selection {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #434343 !important;
+}
+.dark .ant-select-selection {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #434343 !important;
+}
+.dark .ant-input-affix-wrapper {
+  padding: 0 !important;
+}
+.dark .ant-menu-item-selected {
+  background: none !important;
+}
+.dark .ant-menu-item::after {
+  border-right: none !important;
+}
+.dark .active {
+  background-image: none  !important;
+  box-shadow: 0px 2px 5px 0px #a5deff !important;
+}
+/*# sourceMappingURL=./dark1.css.map */

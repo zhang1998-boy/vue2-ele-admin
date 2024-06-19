@@ -1,0 +1,52 @@
+{
+  "name": "operational_tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:SIT": "vue-cli-service build",
+    "build:UAT": "NODE_ENV=production vue-cli-service build ",
+    "build:PRE": "NODE_ENV=production vue-cli-service build ",
+    "build:PROD": "NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.7.1",
+    "ant-design-vue": "^1.7.8",
+    "axios": "^1.6.2",
+    "cookiejs": "^2.1.3",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.11.10",
+    "element-ui": "^2.15.14",
+    "js-cookie": "^3.0.5",
+    "node-sass": "^4.14.1",
+    "nprogress": "^0.2.0",
+    "qrcode": "^1.5.3",
+    "vue": "^2.6.11",
+    "vue-cropper": "^0.6.4",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-plugin-router": "^4.0.5",
+    "@vue/cli-plugin-vuex": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^2.7.3",
+    "less-loader": "^5.0.0",
+    "sass-loader": "^10.5.1",
+    "script-ext-html-webpack-plugin": "^2.1.5",
+    "vue-img-cutter": "^3.0.4",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

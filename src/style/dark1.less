@@ -1,0 +1,55 @@
+@back-color:#333 ;
+@font-color: #fff;
+@border-color:rgba(51,0,51,0);
+@card-color:#242525;
+
+.dark {
+   background: @back-color !important;
+  /* 设置你要的背景色 */
+  .home_container{
+    background: @back-color !important;
+  }
+  .left_top,.left_topactive,.nav-bar,.rigth_top,.container_left,.container_right,.dark-them{
+    background-color: @back-color !important;
+    color:@font-color !important ;
+  }
+  // .container_left{
+  //   /deep/.ant-menu, .ant-menu-inline, .ant-menu-root, .ant-menu-light{
+  //     background-color: @back-color !important;
+  //     color:@font-color !important ;
+  //   }
+  // }
+.register_topdiv,.register_top,.register_content,.register_bottom{
+  background-color: @card-color !important;
+}
+.dark-them,.rigth_top{
+ border-bottom: none !important;
+}
+.dark-select{
+  .ant-select-selection{
+    color: rgba(255, 255, 255, 0.85);
+    background-color: transparent !important;
+    background-image: none !important;
+    border: 1px solid #434343 !important;
+  }
+}
+.ant-select-selection{
+  color: rgba(255, 255, 255, 0.85);
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 1px solid #434343 !important;
+}
+.ant-input-affix-wrapper{
+  padding: 0 !important;
+}
+.ant-menu-item-selected{
+  background: none !important;
+}
+.ant-menu-item::after{
+  border-right: none !important;
+}
+.active{
+  background-image: none  !important;
+  box-shadow: 0px 5px 5px 0px #a5deff !important;
+}
+}
