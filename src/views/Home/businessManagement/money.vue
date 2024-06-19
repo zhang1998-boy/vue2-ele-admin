@@ -2,9 +2,10 @@
  * @Author: 张鹏 215683509@qq.com
  * @Date: 2024-06-17 20:52:56
  * @LastEditors: 张鹏 215683509@qq.com
- * @LastEditTime: 2024-06-19 13:37:43
+ * @LastEditTime: 2024-06-19 14:17:36
  * @FilePath: /gatherone_oms_fronted/src/views/Home/goodsStructure/index.vue
  * @Description: 商务填报-绩效管理
+ 11
 -->
 <template>
   <div class="table_container">
@@ -15,7 +16,7 @@
           >导出</el-button
         > -->
         <el-upload
-          action=""
+          action="1"
           :show-file-list="false"
           :before-upload="handleBeforeUpload"
           :http-request="(e, b) => handleExceed(e, b)"
